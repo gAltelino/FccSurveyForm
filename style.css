@@ -1,0 +1,91 @@
+body {
+    background: url("images/winery.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: whitesmoke;
+    width: 80%;
+}
+
+.title {
+    text-align: center;
+}
+
+.surveyDescription {
+    text-align: center;
+}
+
+.subs {
+    padding-top: 10px;
+    margin-left: 5vmax;
+}
+
+.subs select{
+    text-align: center;
+    width: 20vmax;
+}
+
+.labelSize {
+    display: inline-block;
+    width: 5vmax;
+}
+
+.mainInp {
+    display: inline-block;
+    width: 20vmax;
+}
+
+#comment {
+    margin-top: 10px;
+    display: inline-block;
+    width: 95%;
+}
+
+#winePrice {
+    display: inline-block;
+}
+
+#otherWines{
+    display: inline-block;
+}
+
+#otherWines label{
+    width: 3vmax;
+}
+
+#otherWines input{
+    width: 22vmax;
+}
+
+li{
+    list-style-type: none;
+}
+
+#subRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    display: inline-block;
+    font-size: 1vmax;
+    color: black;
+    font-weight: bold;
+    background: purple;
+    width: 8vmax;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+#submit:hover{
+    background: white;
+    color: purple;
+}

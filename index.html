@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wine Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+
+    <form id="survey-form">
+        <div class="title">
+            <h1 id="title">Wine Preferences Survey</h1>
+        </div>
+
+        <div class="surveyDescription">
+            <p id="description">Tell us what are your most liked wine grapes and help us to determine to what direction
+                we are taking our winery</p>
+        </div>
+
+        <div class="subs">
+            <label for="name" id="name-label" class="labelSize">Name</label>
+            <input type="text" id="name" name="name" placeholder="What's your name?" required="required"
+                class="mainInp">
+        </div>
+
+        <div class="subs">
+            <label for="email" id="email-label" class="labelSize">Email</label>
+            <input type="email" id="email" name="email" placeholder="What's your email?" required="required"
+                class="mainInp">
+        </div>
+
+        <div class="subs">
+            <label for="number" id="number-label" class="labelSize">Age</label>
+            <input type="number" id="number" name="number" min="18" max="120" placeholder="Who old are you?"
+                required="required" class="mainInp">
+        </div>
+
+        <br>
+
+        <div class="subs">
+            <label for="dropdown">How often do you drink wine?</label>
+            <div>
+                <select name="dropdown" id="dropdown">
+                    <option value="0">Less than once a month</option>
+                    <option value="1">Once or twice a month</option>
+                    <option value="2">Once a week</option>
+                    <option value="3">More than once a week</option>
+                    <option value="4">Daily</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="subs" id="winePrice">
+            <p>How much do you usually pay for the wines</p>
+            <ul>
+                <li> <label for="less10"> <input type="radio" name="winePrice" id="less10" value="less10"> Less than 10
+                        USD
+                    </label></li>
+                <li> <label for="bet1040"> <input type="radio" name="winePrice" id="bet1040" value="bet1040"> Between 10
+                        USD and
+                        40 USD </label></li>
+                <li> <label for="more40"> <input type="radio" name="winePrice" id="more40" value="more40"> More than 40
+                        USD
+                    </label></li>
+            </ul>
+        </div>
+
+        <div class="subs">
+            <p>Tell us your favorite wine grapes</p>
+
+            <ul>
+                <li><label for="shiraz"><input type="checkbox" name="wineType" id="shiraz" value="shiraz"> Shiraz
+                    </label></li>
+                <li><label for="cabernetSauvignon"><input type="checkbox" name="wineType" id="cabernetSauvignon"
+                            value="cabernetSauvignon"> Cabernet Sauvignon </label></li>
+                <li><label for="merlot"><input type="checkbox" name="wineType" id="merlot" value="merlot"> Merlot
+                    </label></li>
+                <li> <label for="pinotNoir"><input type="checkbox" name="wineType" id="pinotNoir" value="pinotNoir">
+                        Pinot Noir
+                    </label></li>
+                <li><label for="malbec"><input type="checkbox" name="wineType" id="malbec" value="malbec"> Malbec
+                    </label></li>
+                <li><label for="garnacha"><input type="checkbox" name="wineType" id="garnacha" value="garnacha">
+                        Garnacha
+                    </label></li>
+                <li><label for="chardonnay"><input type="checkbox" name="wineType" id="chardonnay" value="chardonnay">
+                        Chardonnay
+                    </label></li>
+                <li><label for="sauvignonBlanc"><input type="checkbox" name="wineType" id="sauvignonBlanc"
+                            value="sauvignonBlanc">
+                        Sauvignon Blanc </label></li>
+                <li><label for="cheninBlanc"><input type="checkbox" name="wineType" id="cheninBlanc"
+                            value="cheninBlanc"> Chenin
+                        Blanc </label></li>
+            </ul>
+
+            <div id="otherWines">
+                <label for="other">Others <input type="text" id="other"></label>
+            </div>
+        </div>
+
+<br>
+
+        <div class="subs">
+            <label for="comment">Any wine curiosity which you would like to tell us?</label>
+            <div id="textComments">
+                <textarea name="comment" id="comment" rows="4"></textarea>
+            </div>
+        </div>
+
+        <div id="subRow">
+            <button id="submit" type="submit">SUBMIT</button>
+        </div>
+
+
+    </form>
+
+
+</body>
+
+</html>
