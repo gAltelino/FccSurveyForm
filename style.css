@@ -72,11 +72,11 @@ li{
 
 #submit{
     display: inline-block;
-    font-size: 1vmax;
+    font-size: 20px;
     color: black;
     font-weight: bold;
     background: purple;
-    width: 8vmax;
+    width: 10vmax;
     padding-top: 12px;
     padding-bottom: 20px;
     margin-bottom: 25px;
